@@ -61,25 +61,28 @@ public class Lab1 {
       if (nodes.isEmpty()) {
         return nodesVisited;
       }
-
-
+      Set<String> visitedNodes = new HashSet<>();
       String current = nodes.get(random.nextInt(nodes.size())); // 使用重复使用的随机对象
       nodesVisited.add(current);
-
+      visitedNodes.add(current);
       while (true) {
         Map<String, Integer> neighbors = adjList.get(current);
         if (neighbors == null || neighbors.isEmpty()) {
           break;
         }
-
         List<String> nextNodes = new ArrayList<>(neighbors.keySet());
+        nextNodes.removeAll(visitedNodes); // 移除已经访问过的节点
+        if (nextNodes.isEmpty()) {
+          break;
+        }
         String next = nextNodes.get(random.nextInt(nextNodes.size()));
         nodesVisited.add(next);
+        visitedNodes.add(next);
         current = next;
       }
-
       return nodesVisited;
     }
+
 
     public void exportToPngFile(String filePath) {
       exportToPngFile(filePath, Collections.emptyList());

@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="128f1129-f9d5-4fd1-9ba5-83b6e49678f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyleidea-libs/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lab1/Lab1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/one/Lab1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab1/Lab1$Graph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab1/Lab1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab/one/Lab1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/one/Lab1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +67,7 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.Lab1Test">
-    <configuration name="Lab1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Lab1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab.one.Lab1" />
       <module name="lab1" />
       <extension name="coverage">
@@ -87,28 +80,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab1.Lab1" />
-      <module name="lab1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab1RandomwalkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab.one.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab.one" />
+      <option name="MAIN_CLASS_NAME" value="lab.one.Lab1RandomwalkTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab1RandomwalkTest.testRandomWalk_MultipleComponents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab.one.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab.one" />
+      <option name="MAIN_CLASS_NAME" value="lab.one.Lab1RandomwalkTest" />
+      <option name="METHOD_NAME" value="testRandomWalk_MultipleComponents" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab1RandomwalkTest.testRandomWalk_MultipleNodesNoEdges" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab.one.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab.one" />
+      <option name="MAIN_CLASS_NAME" value="lab.one.Lab1RandomwalkTest" />
+      <option name="METHOD_NAME" value="testRandomWalk_MultipleNodesNoEdges" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,28 +153,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab1Test.testQueryBridgeWords_ValidBridge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lab1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab.one.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lab.one" />
-      <option name="MAIN_CLASS_NAME" value="lab.one.Lab1Test" />
-      <option name="METHOD_NAME" value="testQueryBridgeWords_ValidBridge" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Lab1Test" />
-        <item itemvalue="JUnit.Lab1Test.testQueryBridgeWords_ValidBridge" />
-        <item itemvalue="Application.Lab1 (1)" />
+        <item itemvalue="JUnit.Lab1RandomwalkTest.testRandomWalk_MultipleComponents" />
         <item itemvalue="Application.Lab1" />
+        <item itemvalue="JUnit.Lab1RandomwalkTest" />
+        <item itemvalue="JUnit.Lab1RandomwalkTest.testRandomWalk_MultipleNodesNoEdges" />
       </list>
     </recent_temporary>
   </component>
@@ -173,6 +183,8 @@
       <workItem from="1717489540006" duration="27000" />
       <workItem from="1718418655507" duration="360000" />
       <workItem from="1718419031675" duration="16022000" />
+      <workItem from="1718461645569" duration="2813000" />
+      <workItem from="1718501157138" duration="3607000" />
     </task>
     <task id="LOCAL-00001" summary="在IDEA中提交新文件">
       <created>1717310246264</created>
